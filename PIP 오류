@@ -1,3 +1,5 @@
 환경 변수를 설정해야한다.
+- path에다가 C:\Users\user\AppData\Local\Programs\Python\Python37\Scripts 추가
 
-path에다가 C:\Users\user\AppData\Local\Programs\Python\Python37\Scripts 추가
+아나콘다에서 pip 업데이트 하기.
+- conda update pip
