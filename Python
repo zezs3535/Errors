@@ -34,3 +34,13 @@ for i,j in zip(a,b):
 print(i,j)
 
 >>>(1,'가'),(4,'나'),(7,'다')
+
+### Heapq (맨 앞이 최소)
+
+import heapq as hq
+
+hq.heapify(리스트)
+
+hq.heappop(리스트)
+
+hq.heappush(리스트, 아이템)
