@@ -1,0 +1,9 @@
+git add .  #저장
+
+git status #상태확인
+
+git commit -m "~~~~" #commit하기
+
+git log # 로그확인
+
+git push origin master #원격 저장소에 push
