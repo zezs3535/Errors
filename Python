@@ -1,0 +1,36 @@
+파이썬 input()->sys.stdin.readline() 더 빠름
+cmd, *num = sys.stdin.readline().split()  // *은 생략해도 되는듯!!
+st=input().split(' ')
+    for i in st:
+        n.append(int(i)) #int형 여러개 입력받을때
+
+A=[*map(int,input().split())] int형 여러개 입력(한줄에)
+_는 가장 마지막값
+2차원 배열 입력
+a=[list(map(int,input())) for _ in range(n)]
+
+왼쪽 채우기
+
+str.rjust(총 할당할 칸,할당할 문자) # str.rjust(n,'0') 오른쪽으로 밀어놓고 왼쪽엔 0을 채운다
+
+오른쪽 채우는건 ljust
+
+문자 대체하는것
+
+str.replace(바꿀것, 바꾸고싶은것) # str.replace('1','#')
+
+순열
+
+from itertools import permutations
+
+permutations(list,n)
+
+Pair처럼 쌍으로 묶기
+
+a=[1,4,7] b=['가','나','다']
+
+for i,j in zip(a,b):
+
+print(i,j)
+
+>>>(1,'가'),(4,'나'),(7,'다')
