@@ -1,10 +1,21 @@
 ★★★★sort시 cmp를 잘 이용할 것★★★★
+
 최소힙(오름차순) priority_queue<int, vector<int>, greater<int>> pq;
+
 배열 최대값 찾기 algorithm헤더 *max_element(배열시작,끝)
+
 vector<vector<int> > a(node) //a[node][]배열껍데기
+
 vector<vector<int> > a(node, vector<int>(node,0)) // a[node][node] 0초기화배열
+
 int->string // to_string(int) string헤더
+
 중복제거 vec.erase(unique(vec.begin(),vec.end()),vec.end());
+
 다음 순열 next_permutation(arr.begin(), arr.end())
+
 숫자인지 판별 isdigit()
+
 배열에서 중복값의 시작과 끝을 찾는것 lower_bound, upper_bound
+
+멀티셋 multiset<type> mset; 자동 정렬, 삽입삭제 용이
