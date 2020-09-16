@@ -19,3 +19,4 @@ int->string // to_string(int) string헤더
 배열에서 중복값의 시작과 끝을 찾는것 lower_bound, upper_bound
 
 멀티셋 multiset<type> mset; 자동 정렬, 삽입삭제 용이
+- 첫 원소를 지우려면 mset.erase(mset.begin()), 마지막 원소를 지우려면 auto it = mset.end(); it--; mset.erase(it);
