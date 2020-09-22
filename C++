@@ -20,3 +20,7 @@ int->string // to_string(int) string헤더
 
 멀티셋 multiset<type> mset; 자동 정렬, 삽입삭제 용이
 - 첫 원소를 지우려면 mset.erase(mset.begin()), 마지막 원소를 지우려면 auto it = mset.end(); it--; mset.erase(it);
+
+fill() 사용법
+1차원 : fill(a,a+N,0) //0으로 초기화
+2차원 : for(int i=0;i<N;i++)fill(a[i],a[i]+N,0)
