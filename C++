@@ -9,6 +9,7 @@ vector<vector<int> > a(node) //a[node][]배열껍데기
 vector<vector<int> > a(node, vector<int>(node,0)) // a[node][node] 0초기화배열
 
 int->string // to_string(int) string헤더
+string->int // int to = atoi(string.c_str())
 
 중복제거 vec.erase(unique(vec.begin(),vec.end()),vec.end());
 
