@@ -4,8 +4,10 @@
 
 배열 최대값 찾기 algorithm헤더 *max_element(배열시작,끝)
 
+vector<int> a(26); // 26칸짜리 생성 (a[26]) 가로로 26..
+vector<int> a[26]; // 2차원 배열같이 세로로 늘어날 수 있는 배열의 주소 26개 생성?
+                      a[0].push_back() 혹은 a->push_back() 이렇게 접근하면 a[0]에 생기고.. a[1].push_back()하면 a[1]에 생김
 vector<vector<int> > a(node) //a[node][]배열껍데기
-
 vector<vector<int> > a(node, vector<int>(node,0)) // a[node][node] 0초기화배열
 
 int->string // to_string(int) string헤더
