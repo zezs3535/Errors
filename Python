@@ -8,6 +8,7 @@ A=[*map(int,input().split())] int형 여러개 입력(한줄에)
 _는 가장 마지막값
 2차원 배열 입력
 a=[list(map(int,input())) for _ in range(n)]
+a=[[0]*len]*len 하면 안됨
 
 왼쪽 채우기
 
