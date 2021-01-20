@@ -1,0 +1,2 @@
+키보드 말고 파일로 입력받을때
+System.setIn(new FileInputStream("파일명.txt"));
