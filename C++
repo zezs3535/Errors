@@ -27,3 +27,11 @@ string->int // int to = atoi(string.c_str())
 fill() 사용법 (vector로 선언하면 시작이 a.begin(), 정적배열이면 a)
 1차원 : fill(a,a+N,0) //0으로 초기화
 2차원 : for(int i=0;i<N;i++)fill(a[i],a[i]+N,0)
+
+배열 90도 회전
+for (int i = 0; i < n; i++) {
+		for (int j = 0; j < n; j++) {
+			cout << arr[n - 1 - j][i]<<" ";
+		}
+		cout << "\n";
+	}
