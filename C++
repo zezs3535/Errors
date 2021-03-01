@@ -24,6 +24,11 @@ string->int // int to = atoi(string.c_str())
 멀티셋 multiset<type> mset; 자동 정렬, 삽입삭제 용이
 - 첫 원소를 지우려면 mset.erase(mset.begin()), 마지막 원소를 지우려면 auto it = mset.end(); it--; mset.erase(it);
 
+set의 순회
+for(set<int>::iterator iter=s.begin(); iter!=s.end(); iter++){
+   cout << *iter << endl;
+}
+
 fill() 사용법 (vector로 선언하면 시작이 a.begin(), 정적배열이면 a)
 1차원 : fill(a,a+N,0) //0으로 초기화
 2차원 : for(int i=0;i<N;i++)fill(a[i],a[i]+N,0)
