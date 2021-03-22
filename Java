@@ -4,3 +4,7 @@ System.setIn(new FileInputStream("파일명.txt"));
 자바에서 인접리스트를 사용할때
 ArrayList<Integer>[] arr = new ArrayList[n];
 for(int i=0;i<n;i++)arr[i] = new ArrayList<>(); //이렇게 객체 생성 해줘야함
+
+우선순위큐 사용
+PriorityQueue<자료형> pq = new PriorityQueue<>();
+자료형을 Node같은것을 쓰려면 그 클래스에서 implements Comparable<>한 뒤, compareTo 메소드 구현해야함
