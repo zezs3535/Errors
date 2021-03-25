@@ -1,6 +1,13 @@
 ★★★★sort시 cmp를 잘 이용할 것★★★★
 
 최소힙(오름차순) priority_queue<int, vector<int>, greater<int>> pq;
+자료형이 아닌 구조체를 pq에 넣고 싶으면 cmp구조체 내에 operator()를 구현한 뒤 위에 greater<int> 대신 cmp 넣으면 된다
+struct cmp {
+	bool operator()(const pos& a, const pos& b) {
+		return a.w < b.w;
+	}
+};
+
 
 배열 최대값 찾기 algorithm헤더 *max_element(배열시작,끝)
 
