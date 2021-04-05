@@ -10,7 +10,7 @@ PriorityQueue<자료형> pq = new PriorityQueue<>();
 자료형을 Node같은것을 쓰려면 그 클래스에서 implements Comparable<>한 뒤, compareTo 메소드 구현해야함
 
 클래스 정렬
-public class 클래스이름 implements comparble<Object> {
+public class 클래스이름 implements comparable<Object> {
     @Override
     public ~~컴페어함수 자동완성
 }
