@@ -14,3 +14,10 @@ public class 클래스이름 implements comparable<Object> {
     @Override
     public ~~컴페어함수 자동완성
 }
+
+셋 사용
+Set<자료형> s = new HashSet<자료형>();
+s.add(원소); //삽입
+s.remove(원소); //삭제
+Iterator<자료형> iterator = s.iterator(); //반복자 얻기
+while(iterator.hasNext()) //순회
